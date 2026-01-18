@@ -68,8 +68,9 @@ const PROJECTS=[
 ];
 
 // Commands & Descriptions
-const COMMANDS=['help','clear','about','socials','projects','date','theme','fortune','hack','cat','dog','scan','uptime','weather','trace'];
+const COMMANDS=['updates', 'help','clear','about','socials','projects','date','theme','fortune','hack','cat','dog','scan','uptime','weather','trace'];
 const COMMAND_DESCRIPTIONS={
+  updates:"Updates about Projects I'm working on",
   help:"Show available commands",
   clear:"Clear all user input/output but keep headers",
   date:"Display my local time",
@@ -164,6 +165,25 @@ commandInput.addEventListener('keydown', async(e)=>{
   if(!(cmd==='projects' || cmd==='socials')) printLineQueued('> '+raw);
 
   switch(cmd){
+    case 'updates':
+       printLineQueued("Fetching updates...").then(async () => {
+       try {
+       const res = await fetch('updates.txt'); // relative path works if in root
+         if(!res.ok) throw new Error("Failed to fetch");
+          const text = await res.text();
+           // Split by line and print each line
+           const lines = text.split('\n');
+           for(const line of lines){
+           await printLineQueued(line);
+          }
+    } catch(e){
+      printLineQueued("Failed to load updates.");
+    }
+  });
+  break;
+
+
+      
     case 'help':
       printLineQueued("COMMAND        DESCRIPTION");
       for(const c of COMMANDS){
