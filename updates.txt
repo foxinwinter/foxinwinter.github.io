@@ -1,1 +1,2 @@
 01/18/2026 4:31:22 AM | Currently Working on editing my Personal Install Scripts that replaced confs.sh to be GitHub friendly (WIP)
+01/18/2026 4:39:22 AM | Repo made for Post Install Scripts (https://github.com/foxinwinter/post-install-scripts)
