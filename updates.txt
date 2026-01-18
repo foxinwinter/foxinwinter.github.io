@@ -1,1 +1,1 @@
-01/18/2026 4:31:22 AM | Currently Working on editing my Personal Install Scripts that replaced confs.sh to GitHub without all of my personal stuff in them (WIP)
+01/18/2026 4:31:22 AM | Currently Working on editing my Personal Install Scripts that replaced confs.sh to be GitHub friendly (WIP)
