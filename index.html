@@ -209,6 +209,35 @@ commandInput.addEventListener('keydown', async(e)=>{
       printLineQueued(`${hrs}h ${mins%60}m ${seconds%60}s`);
       break;
 
+      case 'ls':
+        try {
+    // If treeData not loaded yet, fetch it
+    if(!window.treeData){
+      const res = await fetch('tree.txt');
+      const text = await res.text();
+      // Split by newline and store
+      window.treeData = text.split('\n');
+    }
+    
+    // Determine current "directory"
+    const dir = parts[1] || '.'; // default is root
+    const indent = dir === '.' ? 0 : dir.split('/').length;
+    
+    // Filter lines to show only one level deep in the requested dir
+    const outputLines = window.treeData.filter(line => {
+      const trimmed = line.replace(/^[├└─│ ]+/,''); // remove tree chars
+      const lineDepth = (line.match(/^[ │├└─]+/) || [''])[0].length/4; // rough depth
+      return lineDepth === indent;
+          }).map(l => l.trim());
+
+          if(outputLines.length === 0) printLineQueued(`ls: no such directory: ${dir}`);
+          else outputLines.forEach(l => printLineQueued(l));
+
+         } catch(e){
+    printLineQueued('Failed to read tree.txt');
+      }
+      break;
+
     case 'fortune':
       const fortunes=["You will code something amazing today.","Beware the semicolons!","A bug will appear in your code tomorrow.","Keep pushing forward!"];
       printLineQueued(fortunes[Math.floor(Math.random()*fortunes.length)]);
