@@ -1,0 +1,141 @@
+.
+├── 1 - OSes
+│   ├── Expermental
+│   │   └── x86_64 (amd64)
+│   │       └── ReactOS-0.4.15-x86-live.iso
+│   ├── Linux
+│   │   ├── Desktop
+│   │   │   └── x86_64 (amd64)
+│   │   │       ├── archlinux-x86_64.iso
+│   │   │       ├── artix-s6.iso
+│   │   │       ├── cachyos-desktop-linux-251129.iso
+│   │   │       ├── debian-installer.iso
+│   │   │       ├── elementaryos-stable.iso
+│   │   │       ├── endeavourOS-desktop.iso
+│   │   │       ├── fedora-workstation.iso
+│   │   │       ├── garuda-hyprland.iso
+│   │   │       ├── garuda-mokka.iso
+│   │   │       ├── linuxmint-cinnamon.iso
+│   │   │       ├── manjaro-kde.iso
+│   │   │       ├── nixos-graphical.iso
+│   │   │       ├── obarun-s6-JWM.iso
+│   │   │       ├── pop!_OS.iso
+│   │   │       ├── ubuntu-desktop.iso
+│   │   │       └── xubuntu-25.10-desktop.iso
+│   │   ├── Minimal
+│   │   │   └── x86_64 (amd64)
+│   │   │       ├── alpine-standard.iso
+│   │   │       ├── dsl.iso
+│   │   │       └── void-live.iso
+│   │   └── Server
+│   │       └── x86_64 (amd64)
+│   │           ├── almalinux.iso
+│   │           ├── proxmox-ve.iso
+│   │           └── Rocky-10.1-x86_64-boot.iso
+│   └── Windows
+│       ├── Generic
+│       │   ├── Win10_22H2_English_x64v1.iso
+│       │   └── Win11_25H2_English_x64.iso
+│       └── OEM
+│           └── Acer_Aspire_5_Win11.iso
+├── 2 - Rescue
+│   ├── Boot
+│   │   └── supergrub2-2.06s4-multiarch-USB.img
+│   ├── Disk
+│   │   ├── clonezilla-live.iso
+│   │   └── gparted-live.iso
+│   ├── Linux
+│   │   ├── finnix.iso
+│   │   └── systemrescue.iso
+│   └── Windows
+│       ├── HBCD_PE_x64.iso
+│       └── WinPE.iso
+├── 3 - Security
+│   ├── Forensics
+│   │   └── caine14.0.iso
+│   ├── Pentesting
+│   │   └── kali-linux-live.iso
+│   └── Privacy
+│       └── tails.img
+├── 4 - Diagnostics
+│   ├── Hardware
+│   │   └── ubcd539.iso
+│   └── Memory
+│       ├── memtest86+.iso
+│       └── memtest.iso
+├── 5 - Tools
+│   ├── Installers
+│   │   └── linuxloops
+│   ├── Other
+│   │   ├── discord-rpc.py
+│   │   └── msbc2sbc
+│   └── Post Install Scripts
+│       ├── ArchLinux.sh
+│       └── ArchLinux.txt
+├── 6 - Applications
+│   ├── Odin3 v3.11.1
+│   │   ├── Odin3.ini
+│   │   └── Odin3_v3.11.1.exe
+│   └── Spotify
+│       ├── spotify-client-1-1-x86_64.pkg.tar.zst
+│       └── spotify-client_1.2.42.290.g242057a2_amd64.deb
+├── 7 - Configs
+│   └── spotify
+│       ├── prefs
+│       └── Users
+│           └── 31wm7gtqjdwt5pxlexfbrudvrojm-user
+│               ├── ad-state-storage.bnk
+│               ├── frecency.pb
+│               ├── local-files.bnk
+│               ├── local_sync_state
+│               ├── pending-messages
+│               ├── pending-messages_seq_nr
+│               ├── prefs
+│               └── watch-sources.bnk
+├── 8 - Android
+│   ├── Misc
+│   │   └── Root
+│   │       └── Magisk
+│   │           ├── Magisk-v30.6.apk
+│   │           └── Magisk-v30.6.zip
+│   ├── SM-T350
+│   │   ├── Bootloader
+│   │   │   ├── Android6.tar
+│   │   │   ├── lk2nd.img
+│   │   │   ├── lk2nd.tar
+│   │   │   └── README.txt
+│   │   ├── Recovery
+│   │   │   ├── README.txt
+│   │   │   ├── stock.tar
+│   │   │   ├── TWRP-3.0.2.tar
+│   │   │   ├── TWRP-3.1.1.tar
+│   │   │   └── TWRP-3.2.1.tar
+│   │   ├── ROMs
+│   │   │   ├── crDroid-9.0.zip
+│   │   │   ├── lineage-20.0.zip
+│   │   │   └── README.txt
+│   │   └── Stock
+│   │       ├── Android 6
+│   │       │   └── T350XXU1BPI2_T350XAC1BPI1_HOME.tar
+│   │       └── Android 7
+│   │           ├── AP_T350XXU1CQJ5_CL12378949_QB15451382_REV00_user_low_ship_MULTI_CERT_meta.tar.md5
+│   │           ├── BL_T350XXU1CQJ5_CL12378949_QB15451382_REV00_user_low_ship_MULTI_CERT.tar.md5
+│   │           ├── CSC_XAC_T350XAC1CQJ5_CL12378949_QB15452309_REV00_user_low_ship_MULTI_CERT.tar.md5
+│   │           └── flash.sh
+│   └── Tools
+│       └── odin
+└── ventoy
+    ├── themes
+    │   └── theme-vfc
+    │       ├── background.jpg
+    │       ├── base.png
+    │       ├── blue_c.png
+    │       ├── ComicMono.pf2
+    │       ├── crust.png
+    │       ├── info.png
+    │       ├── mantle.png
+    │       ├── surface0_c.png
+    │       ├── theme.txt
+    │       └── title.png
+    ├── ventoy_backup.json
+    └── ventoy.json
