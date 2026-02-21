@@ -113,64 +113,6 @@ a {
   <div id="status">Loading transmission…</div>
   <div id="sections"></div>
 </div>
-
-<script>
-fetch('notes.txt')
-  .then(res => {
-    if (!res.ok) throw new Error();
-    return res.text();
-  })
-  .then(text => {
-    document.getElementById('status').textContent = 'Transmission received.';
-    buildSections(text);
-  })
-  .catch(() => {
-    document.getElementById('status').textContent = 'ERROR: Could not load notes.txt';
-  });
-
-function buildSections(text) {
-  const container = document.getElementById('sections');
-  container.innerHTML = '';
-
-  const lines = text.split('\n');
-  let currentSection = null;
-  let buffer = [];
-
-  function flush() {
-    if (!currentSection) return;
-
-    const section = document.createElement('div');
-    section.className = 'section';
-
-    const header = document.createElement('div');
-    header.className = 'section-header';
-    header.textContent = currentSection;
-
-    const content = document.createElement('div');
-    content.className = 'section-content';
-    content.textContent = buffer.join('\n');
-
-    header.addEventListener('click', () => {
-      section.classList.toggle('open');
-    });
-
-    section.appendChild(header);
-    section.appendChild(content);
-    container.appendChild(section);
-  }
-
-  for (const line of lines) {
-    if (line.startsWith('## ')) {
-      flush();
-      currentSection = line.substring(3).trim();
-      buffer = [];
-    } else {
-      buffer.push(line);
-    }
-  }
-
-  flush();
-}
-</script>
+<script src="arg.js"></script>
 </body>
 </html>
