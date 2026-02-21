@@ -1,1 +1,12 @@
-
+{
+  "Roblox": {
+    "Dreamgate": {
+      "Images": {
+        "Screenshots": {
+          "placeholder.tmp": "placeholder file"
+        }
+      },
+      "notes.txt": "This is a note file."
+    }
+  }
+}
