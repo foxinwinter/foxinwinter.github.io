@@ -31,16 +31,28 @@
   <!-- Main content -->
   <main id="main-content">
     <h1>Welcome to my website</h1>
-    <p>This is editable via <code>Main/AboutMe.txt</code></p>
+    <div id="about-box">
+      <p id="about-text">Loading about me…</p>
+    </div>
   </main>
 
   <script>
+    // Hamburger toggle
     const hamburger = document.getElementById('hamburger');
     const sidebar = document.getElementById('sidebar');
-
     hamburger.addEventListener('click', () => {
       sidebar.style.left = sidebar.style.left === '0px' ? '-250px' : '0px';
     });
+
+    // Load AboutMe.txt dynamically
+    fetch('Main/AboutMe.txt')
+      .then(res => res.text())
+      .then(txt => {
+        document.getElementById('about-text').textContent = txt;
+      })
+      .catch(()=> {
+        document.getElementById('about-text').textContent = 'Failed to load About Me content.';
+      });
   </script>
 </body>
 </html>

@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: url('../Background/index.jpg') center/cover no-repeat;
+  background: #bb5a60; /* updated background color */
   font-family: 'VT323', monospace;
   color: #fff;
   overflow-x: hidden;
@@ -38,7 +38,7 @@ body {
   left: -250px;
   width: 250px;
   height: 100%;
-  background: rgba(0,0,0,0.4);  /* transparent */
+  background: rgba(0,0,0,0.4); /* transparent panel */
   padding: 50px 20px;
   transition: left 0.5s ease;
   z-index: 5;
@@ -54,6 +54,16 @@ body {
 #main-content {
   padding: 100px 50px;
   text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/* About Me box */
+#about-box {
+  margin-top: 30px;
+  background: rgba(0,0,0,0.6); /* opaque black */
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 700px;
+  line-height: 1.6;
 }
 
 /* Optional: smooth fade-in for content */
