@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foxinwinter</title>
-  <link rel="icon" type="image/png" href="Assets/Icons/index.png">
-  <link rel="stylesheet" href="Assets/Style/index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foxinwinter // Home</title>
+<link rel="icon" type="image/png" href="Assets/Icons/index.png">
+<link rel="stylesheet" href="Assets/Style/index.css">
 </head>
 <body>
-  <!-- Hamburger -->
-  <div id="hamburger">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
 
-  <!-- Sidebar -->
-  <nav id="sidebar">
+<div id="background-container"></div>
+
+<header>
+  <div id="hamburger">&#9776;</div>
+  <nav id="menu-panel">
     <ul>
       <li>Projects
         <ul>
@@ -27,32 +24,33 @@
       </li>
     </ul>
   </nav>
+</header>
 
-  <!-- Main content -->
-  <main id="main-content">
-    <h1>Welcome to my website</h1>
-    <div id="about-box">
-      <p id="about-text">Loading about me…</p>
-    </div>
-  </main>
+<main>
+  <h1>Welcome to my Website</h1>
+  <div id="aboutme-box">
+    <!-- AboutMe text will be loaded here -->
+  </div>
+</main>
 
-  <script>
-    // Hamburger toggle
-    const hamburger = document.getElementById('hamburger');
-    const sidebar = document.getElementById('sidebar');
-    hamburger.addEventListener('click', () => {
-      sidebar.style.left = sidebar.style.left === '0px' ? '-250px' : '0px';
+<script>
+  // Hamburger toggle
+  const hamburger = document.getElementById('hamburger');
+  const menu = document.getElementById('menu-panel');
+  hamburger.addEventListener('click', () => {
+    menu.classList.toggle('open');
+  });
+
+  // Load AboutMe.txt
+  fetch('Main/AboutMe.txt')
+    .then(res => res.text())
+    .then(text => {
+      document.getElementById('aboutme-box').textContent = text;
+    })
+    .catch(() => {
+      document.getElementById('aboutme-box').textContent = 'AboutMe.txt could not be loaded.';
     });
+</script>
 
-    // Load AboutMe.txt dynamically
-    fetch('Main/AboutMe.txt')
-      .then(res => res.text())
-      .then(txt => {
-        document.getElementById('about-text').textContent = txt;
-      })
-      .catch(()=> {
-        document.getElementById('about-text').textContent = 'Failed to load About Me content.';
-      });
-  </script>
 </body>
 </html>
