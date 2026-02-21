@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Foxinwinter</title>
-<link rel="icon" type="image/png" href="Assets/Icons/index.png">
-<link rel="stylesheet" href="Assets/Style/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foxinwinter</title>
+  <link rel="icon" type="image/png" href="Assets/Icons/index.png">
+  <link rel="stylesheet" href="Assets/Style/index.css">
 </head>
 <body>
+  <!-- Hamburger -->
+  <div id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 
-<!-- Hamburger -->
-<div id="hamburger">
-  <div class="bar"></div>
-  <div class="bar"></div>
-  <div class="bar"></div>
-</div>
+  <!-- Sidebar -->
+  <nav id="sidebar">
+    <ul>
+      <li>Projects
+        <ul>
+          <li>All</li>
+          <li>My</li>
+          <li>Projects</li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 
-<!-- Sidebar menu -->
-<nav id="sidebar">
-  <ul>
-    <li>Projects
-      <ul>
-        <li>All</li>
-        <li>My</li>
-        <li>Projects</li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+  <!-- Main content -->
+  <main id="main-content">
+    <h1>Welcome to my website</h1>
+    <p>This is editable via <code>Main/AboutMe.txt</code></p>
+  </main>
 
-<!-- Main content -->
-<main id="content">
-  <h1>Welcome to my website</h1>
-  <p id="aboutme"></p>
-</main>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const sidebar = document.getElementById('sidebar');
 
-<script>
-// Load AboutMe.txt dynamically
-fetch('Main/AboutMe.txt')
-  .then(res => res.text())
-  .then(text => document.getElementById('aboutme').textContent = text)
-  .catch(()=> document.getElementById('aboutme').textContent = "Failed to load About Me.");
-
-// Hamburger toggle
-const hamburger = document.getElementById('hamburger');
-const sidebar = document.getElementById('sidebar');
-hamburger.addEventListener('click', () => {
-  sidebar.style.left = (sidebar.style.left === '0px') ? '-250px' : '0px';
-});
-</script>
+    hamburger.addEventListener('click', () => {
+      sidebar.style.left = sidebar.style.left === '0px' ? '-250px' : '0px';
+    });
+  </script>
 </body>
 </html>
