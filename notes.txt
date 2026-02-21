@@ -1,4 +1,4 @@
-1. Core Accounts
+## 1. Core Accounts
 
 YouTube channel:
     https://www.youtube.com/@game1234superfun
@@ -28,31 +28,30 @@ Website:
             Opening lain and clicking all the icons that are different opens
                 URL: https://dreamgate.neocities.org/microwave
 
-Roblox account:
-    game1234
+    Roblox account:
+        game1234
+            Roblox Account Description:
+                        im a pizzaluvr!!
+                        rotten and 64°, shedletsky knew ¯\_(ツ)_/¯
 
-    Roblox Account Description:
-        im a pizzaluvr!!
-        rotten and 64°, shedletsky knew ¯\_(ツ)_/¯
+                        aHR0cHM6Ly9wYXN0ZWJpbi5jb20vWGZCajdqMnQKSUYgWU9VUiBTTUFSVHBsZWFzZS4gWU9Vc2hvdWxkbnQnRCBUVVJOIEJBQ0tkb250CkRPIFdIQVRTIFJJR0hULCBkb250QUJBTkRPTiBUSEUgR0FNRS4gCm5ldmVyQUJBTkRPTiBUSEUgcGxlYXNlRVhQRVJJTUVOVC4KaW15b3VyZnJpZW5kIAoKcGFzdGViaW4gcGFzczogUlo4S2tKdzdmQw==
 
-        aHR0cHM6Ly9wYXN0ZWJpbi5jb20vWGZCajdqMnQKSUYgWU9VUiBTTUFSVHBsZWFzZS4gWU9Vc2hvdWxkbnQnRCBUVVJOIEJBQ0tkb250CkRPIFdIQVRTIFJJR0hULCBkb250QUJBTkRPTiBUSEUgR0FNRS4gCm5ldmVyQUJBTkRPTiBUSEUgcGxlYXNlRVhQRVJJTUVOVC4KaW15b3VyZnJpZW5kIAoKcGFzdGViaW4gcGFzczogUlo4S2tKdzdmQw==
+                        Nobody can run forever.
 
-        Nobody can run forever.
-
-       Base64 to ASCII:
-        https://pastebin.com/XfBj7j2t
-        IF YOUR SMARTplease. YOUshouldnt'D TURN BACKdont
-        DO WHATS RIGHT, dontABANDON THE GAME.
-        neverABANDON THE pleaseEXPERIMENT.
-        imyourfriend
-        pastebin pass: RZ8KkJw7fC
+                            Base64 to ASCII:
+                                https://pastebin.com/XfBj7j2t
+                                IF YOUR SMARTplease. YOUshouldnt'D TURN BACKdont
+                                DO WHATS RIGHT, dontABANDON THE GAME.
+                                neverABANDON THE pleaseEXPERIMENT.
+                                imyourfriend
+                                pastebin pass: RZ8KkJw7fC
 
     Notes:
     The Roblox Account owns a game titled: Game1234's Place, more info at point #7
         URL: https://www.roblox.com/games/12253922014
 
 
-2. Pastebin Clues
+## 2. Pastebin From Roblox Description
 
 Pastebin link: https://pastebin.com/XfBj7j2t
 
@@ -69,6 +68,7 @@ Contents of Pastebin:
     The key to the truth you seek is __: Entanglement[VERSION]
     ---\T[H]E[ DECRYP]TI[]ON\ Y[O]U RE[)QU9IRE IS A]ES-2\56
     pleasefreeme.jar
+
         Decoded:
             Decrypt code from AES using
                 Settings: ECB, PKCS5Padding, 128
@@ -80,28 +80,26 @@ Contents of Pastebin:
                     the s(un s)EtS, bUt nevr ris3s
                     a gam3 forg0ttEn
                     C(Y)R U!RYC Z[R] VG F!B SH(X)V@A T P(B)Y Q
-                        Decoded (ROT-13, Last line):
-                                    P(L)E H!ELP M[E] IT S!O FU(K)I@N G C(O)L D
-                                        Readble:
-                                            PLEASE HELP ME ITS SO FUCKING COLD
-
 
                     do yo(u st[[)ill vis1t my gra.ve?
                     i wAnt to g0 ba(k.
                     eyEs thAt see, bUt do noT blin(k
                     whY cAn’t i blee(d
-                    Readable:
-                        Buttons pressed, but no response
-                        The sun sets, but never rises
-                        A game forgotten
 
-                        Do you still vist my grave?
-                        I want to go back.
-                        Eyes that see, but do not blink
-                        Why can't I bleed
+                        Decoded (ROT-13, last line of 1st block) + Readable:
+
+                                            Readable:
+                                                Buttons pressed, but no response
+                                                The sun sets, but never rises
+                                                A game forgotten
+
+                                                Do you still vist my grave?
+                                                I want to go back.
+                                                Eyes that see, but do not blink
+                                                Why can't I bleed
 
 
-3. First YouTube Video
+## 3. First YouTube Video
 
 Title: 3/1/2008 dreamgate
 
@@ -131,7 +129,7 @@ Video content:
             Translation: ASCII "owl"
 
 
-4. Imgur Link from First Video
+## 4. Imgur Link from First Video
 https://imgur.com/a/oh-dear-logno-tqHceT2
 Contains:
 Top Left: Blank Picture of Someone (like the default), with text below it: J. Doe 9656
@@ -160,7 +158,7 @@ Binary at the bottom:
         Translation: thesrvdidit > Possible meaning: The Server did it.
 
 
-5. Second Youtube Video
+## 5. Second Youtube Video
 
 Title: for jimmy HAPPY BIRHTD.AY
 
@@ -185,7 +183,7 @@ Video Content:
             This is from the original game1234 account 20092009200920092009200920092009200920092009200920092009200920092009 this video was originally uploa2009ded in 2009 20092009
 
 
-6. Third Youtube Video
+## 6. Third Youtube Video
 
 Title: escape of the lava thingys [2006 reupload]
 
@@ -231,7 +229,7 @@ Video Content:
         Notes: Putting this video into a spectrogram gives you the image of three roblox characters, and the words "turn back" repeated 4 times
 
 
-7. Final Video
+## 7. Final Video
 
 Title: jimmy.mov Automatic Screen Capture
 
@@ -412,20 +410,22 @@ Video Content:
                             Fades to black
 
 
-8. Further Links + Other Stuff
+## 8. Further Links + Other Stuff
 
 Imgur Link from Third Video:
     Text at top reads: jimjam5556-jb20vYS9kTFdHeFRv
             Base64 String: jb20vYS9kTFdHeFRv
         Roblox Profile: jimjam5556
             Base64 String: aHR0cHM6Ly9pbWd1ci5
-        Full Base64 Encoded String:
-            aHR0cHM6Ly9pbWd1ci5jb20vYS9kTFdHeFRv
-        Decoded Base64 String:
-            https://imgur.com/a/dLWGxTo
+                
+                Full Base64 Encoded String:
+                    aHR0cHM6Ly9pbWd1ci5jb20vYS9kTFdHeFRv
+                      
+                      Decoded Base64 String:
+                                https://imgur.com/a/dLWGxTo
 
 
-9. Roblox Game
+## 9. Roblox Game
     Game Description:
         Encoded:
             xcmwipyl nby nlonb
@@ -503,13 +503,13 @@ Imgur Link from Third Video:
 
 
 
-NOTES:
+## NOTES:
     Z appears to go by "Lain" as said in the PC in Dreamgate Co., however this appears to have been edited as "Lain" is on a gray background while the rest is white, and it also confirms that Z or "Lain" is indeed the Director
     It is possible that video #3 represents a puzzle in the Terrace, however this is a very far strech, I say this because in the spectrogram it says "turn back" 4x, and there isn't a whole lot in the terrace.
     Jimmy + Game1234 are both Vessels, Z is the (who I think) founded DreamGate, just thanks to the website + their name popping up everywhere.
     In video 4 it mentions 'hunters,' we haven't heard this anywhere else, it is possible, that we the player are the hunters sent out to find Jimmy + Game1234 and help them kill a core.
 
-TODO:
+## TODO:
     Scan the first Imgur Image for anything hidden
     Continue Hunting for Secrets in Game1234's place
     Re-comb over the youtube videos for anything hidden
