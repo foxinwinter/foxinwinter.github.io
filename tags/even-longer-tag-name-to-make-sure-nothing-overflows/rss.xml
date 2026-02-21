@@ -2,20 +2,20 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
       <title>Ametrine - Even longer tag name to make sure nothing overflows</title>
-      <link>https://ametrine.daudix.one</link>
+      <link>https://foxinwinter.github.io</link>
       <description>Elegant, pretty, and snappy Zola theme.</description>
       <generator>Zola</generator>
       <language>en</language>
-      <atom:link href="https://ametrine.daudix.one/tags/even-longer-tag-name-to-make-sure-nothing-overflows/rss.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://foxinwinter.github.io/tags/even-longer-tag-name-to-make-sure-nothing-overflows/rss.xml" rel="self" type="application/rss+xml"/>
       <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
       <item>
           <title>Testing with the Taste of Blood (Portal Reference, Get It? Get Itttt?) Bwaaaaaaa</title>
           <pubDate>Thu, 04 Oct 2007 00:00:00 +0000</pubDate>
           <author>Jimmy</author>
-          <link>https://ametrine.daudix.one/blog/test/</link>
-          <guid>https://ametrine.daudix.one/blog/test/</guid>
-          <description xml:base="https://ametrine.daudix.one/blog/test/">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;&#x2F;strong&gt;, &lt;em&gt;italic&lt;&#x2F;em&gt;, &lt;del&gt;strikethrough&lt;&#x2F;del&gt;, and &lt;strong&gt;&lt;em&gt;&lt;del&gt;all at the same time&lt;&#x2F;del&gt;&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;demo&#x2F;page&#x2F;&quot;&gt;Link to another page&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+          <link>https://foxinwinter.github.io/blog/test/</link>
+          <guid>https://foxinwinter.github.io/blog/test/</guid>
+          <description xml:base="https://foxinwinter.github.io/blog/test/">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;&#x2F;strong&gt;, &lt;em&gt;italic&lt;&#x2F;em&gt;, &lt;del&gt;strikethrough&lt;&#x2F;del&gt;, and &lt;strong&gt;&lt;em&gt;&lt;del&gt;all at the same time&lt;&#x2F;del&gt;&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;demo&#x2F;page&#x2F;&quot;&gt;Link to another page&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;There should be whitespace between paragraphs&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;&#x2F;h2&gt;
@@ -137,7 +137,7 @@ Combustible lemons&lt;&#x2F;li&gt;
 &lt;p&gt;Advises about risks or negative outcomes of certain actions.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;hr &#x2F;&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn-1&quot;&gt;

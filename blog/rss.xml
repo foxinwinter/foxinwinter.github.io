@@ -2,20 +2,20 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
       <title>Ametrine - Blog</title>
-      <link>https://ametrine.daudix.one/blog/</link>
+      <link>https://foxinwinter.github.io/blog/</link>
       <description>Elegant, pretty, and snappy Zola theme.</description>
       <generator>Zola</generator>
       <language>en</language>
-      <atom:link href="https://ametrine.daudix.one/blog/rss.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://foxinwinter.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/>
       <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
       <item>
           <title>Ametrine</title>
           <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
           <author>Daudix</author>
-          <link>https://ametrine.daudix.one/blog/ametrine/</link>
-          <guid>https://ametrine.daudix.one/blog/ametrine/</guid>
-          <description xml:base="https://ametrine.daudix.one/blog/ametrine/">&lt;p&gt;&lt;strong&gt;Ametrine&lt;&#x2F;strong&gt;, also known as &lt;strong&gt;trystine, golden amethyst,&lt;&#x2F;strong&gt; or by the trade name &lt;strong&gt;bolivianite&lt;&#x2F;strong&gt;, is a variety of &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Quartz&quot;&gt;quartz&lt;&#x2F;a&gt; with alternating zones of purple and yellow-orange coloration. Its name is a portmanteau of &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Amethyst&quot;&gt;amethyst&lt;&#x2F;a&gt; and &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Citrine_quartz&quot;&gt;citrine&lt;&#x2F;a&gt;. While ametrine is commonly referred to as a combination of these two quartz varieties, some sources claim this is not accurate.&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-2-1&quot;&gt;&lt;a href=&quot;#fn-2&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; Almost all commercially available ametrine is mined in &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bolivia&quot;&gt;Bolivia&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+          <link>https://foxinwinter.github.io/blog/ametrine/</link>
+          <guid>https://foxinwinter.github.io/blog/ametrine/</guid>
+          <description xml:base="https://foxinwinter.github.io/blog/ametrine/">&lt;p&gt;&lt;strong&gt;Ametrine&lt;&#x2F;strong&gt;, also known as &lt;strong&gt;trystine, golden amethyst,&lt;&#x2F;strong&gt; or by the trade name &lt;strong&gt;bolivianite&lt;&#x2F;strong&gt;, is a variety of &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Quartz&quot;&gt;quartz&lt;&#x2F;a&gt; with alternating zones of purple and yellow-orange coloration. Its name is a portmanteau of &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Amethyst&quot;&gt;amethyst&lt;&#x2F;a&gt; and &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Citrine_quartz&quot;&gt;citrine&lt;&#x2F;a&gt;. While ametrine is commonly referred to as a combination of these two quartz varieties, some sources claim this is not accurate.&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-2-1&quot;&gt;&lt;a href=&quot;#fn-2&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; Almost all commercially available ametrine is mined in &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bolivia&quot;&gt;Bolivia&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn-2&quot;&gt;
@@ -29,10 +29,10 @@
           <title>Testing with the Taste of Blood (Portal Reference, Get It? Get Itttt?) Bwaaaaaaa</title>
           <pubDate>Thu, 04 Oct 2007 00:00:00 +0000</pubDate>
           <author>Jimmy</author>
-          <link>https://ametrine.daudix.one/blog/test/</link>
-          <guid>https://ametrine.daudix.one/blog/test/</guid>
-          <description xml:base="https://ametrine.daudix.one/blog/test/">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;&#x2F;strong&gt;, &lt;em&gt;italic&lt;&#x2F;em&gt;, &lt;del&gt;strikethrough&lt;&#x2F;del&gt;, and &lt;strong&gt;&lt;em&gt;&lt;del&gt;all at the same time&lt;&#x2F;del&gt;&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;demo&#x2F;page&#x2F;&quot;&gt;Link to another page&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+          <link>https://foxinwinter.github.io/blog/test/</link>
+          <guid>https://foxinwinter.github.io/blog/test/</guid>
+          <description xml:base="https://foxinwinter.github.io/blog/test/">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;&#x2F;strong&gt;, &lt;em&gt;italic&lt;&#x2F;em&gt;, &lt;del&gt;strikethrough&lt;&#x2F;del&gt;, and &lt;strong&gt;&lt;em&gt;&lt;del&gt;all at the same time&lt;&#x2F;del&gt;&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;demo&#x2F;page&#x2F;&quot;&gt;Link to another page&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;There should be whitespace between paragraphs&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;&#x2F;h2&gt;
@@ -154,7 +154,7 @@ Combustible lemons&lt;&#x2F;li&gt;
 &lt;p&gt;Advises about risks or negative outcomes of certain actions.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;hr &#x2F;&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn-1&quot;&gt;
@@ -171,36 +171,36 @@ Combustible lemons&lt;&#x2F;li&gt;
           <title>Dolor</title>
           <pubDate>Sat, 03 Jan 1970 00:00:00 +0000</pubDate>
           <author>John Dolor</author>
-          <link>https://ametrine.daudix.one/blog/dolor/</link>
-          <guid>https://ametrine.daudix.one/blog/dolor/</guid>
-          <description xml:base="https://ametrine.daudix.one/blog/dolor/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea.&lt;&#x2F;p&gt;
+          <link>https://foxinwinter.github.io/blog/dolor/</link>
+          <guid>https://foxinwinter.github.io/blog/dolor/</guid>
+          <description xml:base="https://foxinwinter.github.io/blog/dolor/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea.&lt;&#x2F;p&gt;
 &lt;p&gt;Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, cum esset accusata et vituperata ab Hortensio. Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. Praeterea bona praeterita grata recordatione renovata delectant. Est.&lt;&#x2F;p&gt;
 &lt;p&gt;Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, cum esset accusata et vituperata ab Hortensio. Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. Praeterea.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </description>
       </item>
       <item>
           <title>Ipsum</title>
           <pubDate>Fri, 02 Jan 1970 00:00:00 +0000</pubDate>
           <author>John Ipsum</author>
-          <link>https://ametrine.daudix.one/blog/ipsum/</link>
-          <guid>https://ametrine.daudix.one/blog/ipsum/</guid>
-          <description xml:base="https://ametrine.daudix.one/blog/ipsum/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea.&lt;&#x2F;p&gt;
+          <link>https://foxinwinter.github.io/blog/ipsum/</link>
+          <guid>https://foxinwinter.github.io/blog/ipsum/</guid>
+          <description xml:base="https://foxinwinter.github.io/blog/ipsum/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea.&lt;&#x2F;p&gt;
 &lt;p&gt;Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, cum esset accusata et vituperata ab Hortensio. Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. Praeterea bona praeterita grata recordatione renovata delectant. Est.&lt;&#x2F;p&gt;
 &lt;p&gt;Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, cum esset accusata et vituperata ab Hortensio. Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. Praeterea.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </description>
       </item>
       <item>
           <title>Lorem</title>
           <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
           <author>John Lorem</author>
-          <link>https://ametrine.daudix.one/blog/lorem/</link>
-          <guid>https://ametrine.daudix.one/blog/lorem/</guid>
-          <description xml:base="https://ametrine.daudix.one/blog/lorem/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea.&lt;&#x2F;p&gt;
+          <link>https://foxinwinter.github.io/blog/lorem/</link>
+          <guid>https://foxinwinter.github.io/blog/lorem/</guid>
+          <description xml:base="https://foxinwinter.github.io/blog/lorem/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea.&lt;&#x2F;p&gt;
 &lt;p&gt;Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, cum esset accusata et vituperata ab Hortensio. Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. Praeterea bona praeterita grata recordatione renovata delectant. Est.&lt;&#x2F;p&gt;
 &lt;p&gt;Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, cum esset accusata et vituperata ab Hortensio. Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. Praeterea.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;demo&#x2F;&quot;&gt;Backlink&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </description>
       </item>
     </channel>

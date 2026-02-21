@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://ametrine.daudix.one/sitemap.xml
+Sitemap: https://foxinwinter.github.io/sitemap.xml
