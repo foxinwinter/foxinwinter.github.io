@@ -1,6 +1,0 @@
-01/18/2026 04:31:22 AM | Currently Working on editing my Personal Install Scripts that replaced confs.sh to be GitHub friendly (WIP)
-01/18/2026 04:39:22 AM | Repo made for Post Install Scripts (https://github.com/foxinwinter/post-install-scripts)
-01/18/2026 02:06:20 PM | Taking a break on Porting Post Install Scripts to work on Custom RPC, when Custom RPC is to the State I want I will resume work on Post Install Scripts
-01/18/2026 02:15:23 PM | Custom-RPC Github Repo Created (https://github.com/foxinwinter/Custom-RPC)
-01/18/2026 02:29:06 PM | First version of Custom-RPC uploaded, currently there is NO CLI options, if you want to edit it you need to edit the .py file Manually
-02/11/2026 09:22:45 PM | Working on framework + scripts for Y2JB exploit for PS5 version 12.40
