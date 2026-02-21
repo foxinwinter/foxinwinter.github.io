@@ -1,0 +1,62 @@
+/* Body and background */
+body {
+  margin:0;
+  padding:0;
+  font-family: 'VT323', monospace;
+  background: url('https://img.freepik.com/premium-photo/there-is-red-sky-with-red-moon-distance_1035769-41355.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Hamburger menu */
+#hamburger {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index:10;
+  width: 30px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.bar { 
+  height: 4px; 
+  width: 100%; 
+  background:#8b0412;
+  border-radius:2px; 
+  transition: all 0.3s ease;
+  box-shadow: 0 0 6px #ff2a2a, 0 0 12px #ff4a4a;
+}
+
+/* Sidebar */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  padding: 50px 20px;
+  transition: left 0.5s ease;
+  z-index: 5;
+}
+
+#sidebar ul { list-style:none; padding:0; }
+#sidebar ul li { margin:15px 0; cursor:pointer; }
+#sidebar ul li ul { margin-top:5px; margin-left:15px; display:none; }
+#sidebar ul li:hover ul { display:block; }
+
+/* Main content */
+#content {
+  padding: 100px 50px 50px 50px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Glow effect for headers */
+h1, li { text-shadow: 0 0 6px #ff2a2a, 0 0 12px #ff4a4a; }

@@ -5,94 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Foxinwinter</title>
 <link rel="icon" type="image/png" href="Assets/Icons/index.png">
-<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-<style>
-/* Reset & base */
-* { margin:0; padding:0; box-sizing:border-box; }
-html, body { width:100%; height:100%; font-family:'VT323', monospace; overflow-x:hidden; }
-
-/* Background */
-body {
-  background: url('https://img.freepik.com/premium-photo/there-is-red-sky-with-red-moon-distance_1035769-41355.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #00ffcc;
-}
-
-/* Glow & blur overlay */
-#overlay {
-  position: fixed;
-  inset: 0;
-  backdrop-filter: blur(6px);
-  background: rgba(0,0,0,0.4);
-  pointer-events: none;
-  z-index:0;
-}
-
-/* Hamburger menu */
-#hamburger {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index:10;
-  width: 30px;
-  height: 22px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-}
-
-.bar { height: 4px; width: 100%; background:#00ffcc; border-radius:2px; transition: all 0.3s ease; }
-
-/* Menu panel */
-#menu {
-  position: fixed;
-  top:0;
-  left:-300px;
-  width: 280px;
-  height: 100%;
-  background: rgba(0,0,0,0.85);
-  backdrop-filter: blur(5px);
-  box-shadow: 5px 0 15px rgba(0,255,204,0.5);
-  padding: 50px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  transition: left 0.5s ease;
-  z-index:9;
-}
-
-.menu-section { cursor:pointer; }
-.menu-section:hover { color:#ff0000; text-shadow:0 0 5px #ff0000; }
-
-/* Main content */
-#main {
-  padding: 100px 50px 50px 50px;
-  max-width: 900px;
-  margin: 0 auto;
-  position: relative;
-  z-index:1;
-}
-
-.section {
-  margin-bottom: 40px;
-}
-
-.section h2 {
-  font-size:2em;
-  margin-bottom:10px;
-  color:#ff5555;
-  text-shadow:0 0 5px #ff5555;
-}
-
-.section p { line-height:1.6em; font-size:1.3em; color:#00ffcc; }
-
-a { color:#00ffff; text-decoration:underline; }
-
-</style>
+<link rel="stylesheet" href="Assets/Style/index.css">
 </head>
 <body>
-<div id="overlay"></div>
 
 <!-- Hamburger -->
 <div id="hamburger">
@@ -101,55 +16,37 @@ a { color:#00ffff; text-decoration:underline; }
   <div class="bar"></div>
 </div>
 
-<!-- Sliding menu -->
-<div id="menu">
-  <div class="menu-section" data-section="projects-all">Projects &gt; All</div>
-  <div class="menu-section" data-section="projects-my">Projects &gt; My</div>
-  <div class="menu-section" data-section="projects-projects">Projects &gt; Projects</div>
-</div>
+<!-- Sidebar menu -->
+<nav id="sidebar">
+  <ul>
+    <li>Projects
+      <ul>
+        <li>All</li>
+        <li>My</li>
+        <li>Projects</li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 <!-- Main content -->
-<div id="main">
-  <div class="section" id="aboutme">
-    <h2>About Me</h2>
-    <p id="about-text">Loading...</p>
-  </div>
-</div>
+<main id="content">
+  <h1>Welcome to my website</h1>
+  <p id="aboutme"></p>
+</main>
 
 <script>
+// Load AboutMe.txt dynamically
+fetch('Main/AboutMe.txt')
+  .then(res => res.text())
+  .then(text => document.getElementById('aboutme').textContent = text)
+  .catch(()=> document.getElementById('aboutme').textContent = "Failed to load About Me.");
+
 // Hamburger toggle
 const hamburger = document.getElementById('hamburger');
-const menu = document.getElementById('menu');
-let menuOpen = false;
-hamburger.addEventListener('click',()=>{
-  menuOpen = !menuOpen;
-  menu.style.left = menuOpen ? '0' : '-300px';
-  // Animate bars
-  const bars = hamburger.querySelectorAll('.bar');
-  if(menuOpen){
-    bars[0].style.transform = 'rotate(45deg) translate(5px,5px)';
-    bars[1].style.opacity = '0';
-    bars[2].style.transform = 'rotate(-45deg) translate(6px,-6px)';
-  } else {
-    bars[0].style.transform = '';
-    bars[1].style.opacity = '';
-    bars[2].style.transform = '';
-  }
-});
-
-// Load AboutMe.txt
-fetch('Main/AboutMe.txt')
-.then(res => res.ok ? res.text() : Promise.reject())
-.then(txt => document.getElementById('about-text').textContent = txt)
-.catch(()=> document.getElementById('about-text').textContent = 'Could not load AboutMe.txt.');
-
-// Smooth scroll for menu
-document.querySelectorAll('#menu .menu-section').forEach(el=>{
-  el.addEventListener('click', ()=>{
-    const target = el.getAttribute('data-section');
-    alert('Clicked '+target+' — pages will be handled per project HTML.'); 
-    // Could implement dynamic content injection or page redirect here
-  });
+const sidebar = document.getElementById('sidebar');
+hamburger.addEventListener('click', () => {
+  sidebar.style.left = (sidebar.style.left === '0px') ? '-250px' : '0px';
 });
 </script>
 </body>
