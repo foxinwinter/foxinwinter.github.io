@@ -1,64 +1,16 @@
-// ==========================
-// Hamburger menu
-// ==========================
-const hamburger = document.getElementById("hamburger");
-const sideMenu = document.getElementById("side-menu");
+// Load About Me Text
+fetch('Main/welcome.txt')
+  .then(res => res.text())
+  .then(txt => document.getElementById('about-box').textContent = txt)
+  .catch(() => document.getElementById('about-box').textContent = 'Failed to load About Me.');
 
-hamburger.addEventListener("click", () => {
-  sideMenu.classList.toggle("open");
-});
-
-// ==========================
-// Load About Me
-// ==========================
-fetch("Main/AboutMe.txt")
-  .then(r => r.text())
-  .then(t => {
-    document.getElementById("about-box").textContent = t;
-  })
-  .catch(() => {
-    document.getElementById("about-box").textContent = "Failed to load About Me.";
-  });
-
-// ==========================
-// Social widgets
-// ==========================
-const socials = [
-  { name: "Discord", icon: "discord.png", link: "https://discord.com" },
-  { name: "GitHub", icon: "github.png", link: "https://github.com/foxinwinter" },
-  { name: "Telegram", icon: "telegram.png", link: "https://t.me/" }
-];
-
-const socialsContainer = document.getElementById("socials-widget");
-
-socials.forEach(s => {
-  const btn = document.createElement("button");
-  btn.innerHTML = `<img src="Assets/Icons/Socials/${s.icon}"> ${s.name}`;
-  btn.onclick = () => window.open(s.link, "_blank");
-  socialsContainer.appendChild(btn);
-});
-
-// ==========================
-// Date & Time
-// ==========================
-function updateTime() {
+// Clock Widget
+function updateClock() {
   const now = new Date();
-
-  document.getElementById("date").textContent =
-    now.toLocaleDateString(undefined, {
-      weekday: "long",
-      year: "numeric",
-      month: "long",
-      day: "numeric"
-    });
-
-  document.getElementById("time").textContent =
-    now.toLocaleTimeString(undefined, {
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit"
-    });
+  const timeEl = document.getElementById('time');
+  const dateEl = document.getElementById('date');
+  timeEl.textContent = now.toLocaleTimeString('en-US', {hour12:false});
+  dateEl.textContent = now.toLocaleDateString('en-US', {weekday:'long', year:'numeric', month:'long', day:'numeric'});
 }
-
-updateTime();
-setInterval(updateTime, 1000);
+setInterval(updateClock, 1000);
+updateClock();

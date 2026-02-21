@@ -1,172 +1,88 @@
-/* =====================
-   RESET
-   ===================== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: system-ui, sans-serif;
+/* Reset & basic */
+* { margin:0; padding:0; box-sizing:border-box; font-family:'VT323', monospace; }
+html, body { height:100%; overflow-x:hidden; }
+
+/* Background */
+#bg-container {
+  position:fixed;
+  top:0; left:0; width:100%; height:100%;
+  background: url("../Background/index.png") center/cover no-repeat;
+  z-index:-1;
+  filter: brightness(0.85);
 }
 
-html, body {
-  height: 100%;
-  background: #1e1e2e;
-  color: #cdd6f4;
-  overflow-x: hidden;
+/* Main Wrapper */
+#main-wrapper {
+  display:flex; flex-direction:column; align-items:center;
+  padding:50px 20px;
+  min-height:100vh;
 }
 
-/* =====================
-   BACKGROUND
-   ===================== */
-#background {
-  position: fixed;
-  inset: 0;
-  background:
-    linear-gradient(rgba(30,30,46,0.85), rgba(30,30,46,0.85)),
-    url("../Background/index.jpg") center / cover no-repeat;
-  filter: blur(2px);
-  z-index: -2;
+/* About Me */
+#about-container {
+  display:flex; align-items:center; gap:20px;
+  background: rgba(30,30,46,0.85);
+  border-radius:15px;
+  padding:20px;
+  max-width:800px;
+  width:90%;
+  box-shadow: 0 0 20px rgba(235,160,172,0.5);
+  margin-bottom:40px;
 }
-
-/* =====================
-   HAMBURGER
-   ===================== */
-#hamburger {
-  position: fixed;
-  top: 22px;
-  left: 22px;
-  width: 34px;
-  height: 26px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  z-index: 100;
+#pfp {
+  width:120px; height:120px; border-radius:50%; object-fit:cover;
+  flex-shrink:0;
 }
-
-#hamburger span {
-  height: 4px;
-  background: #eba0ac;
-  border-radius: 3px;
-}
-
-/* =====================
-   SIDE MENU
-   ===================== */
-#side-menu {
-  position: fixed;
-  top: 0;
-  left: -260px;
-  width: 260px;
-  height: 100%;
-  padding: 80px 24px;
-  background: rgba(30,30,46,0.6);
-  backdrop-filter: blur(14px);
-  transition: left 0.4s ease;
-  z-index: 90;
-}
-
-#side-menu.open {
-  left: 0;
-}
-
-#side-menu ul {
-  list-style: none;
-}
-
-#side-menu li {
-  margin-bottom: 16px;
-}
-
-#side-menu a {
-  color: #cdd6f4;
-  text-decoration: none;
-}
-
-#side-menu a:hover {
-  color: #eba0ac;
-}
-
-/* =====================
-   MAIN CONTENT
-   ===================== */
-#content {
-  max-width: 900px;
-  margin: 120px auto 0;
-  padding: 0 24px;
-}
-
-/* =====================
-   ABOUT BOX
-   ===================== */
 #about-box {
+  color:#cdd6f4;
+  font-size:1.2em;
+  line-height:1.5em;
+  white-space:pre-wrap;
+}
+
+/* Widgets Panel */
+#widgets-panel {
+  display:flex; justify-content:space-between;
+  width:90%; max-width:900px;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+/* Widget styling */
+.widget {
   background: rgba(30,30,46,0.85);
-  backdrop-filter: blur(14px);
-  border-radius: 18px;
-  padding: 26px;
-  margin-bottom: 40px;
-  font-size: 1.1em;
-  box-shadow: 0 0 25px rgba(235,160,172,0.35);
+  border-radius:15px;
+  padding:15px;
+  flex:1 1 200px;
+  min-width:220px;
+  box-shadow: 0 0 15px rgba(235,160,172,0.5);
+  color:#cdd6f4;
+}
+.widget h3 {
+  margin-bottom:10px;
+  color:#eba0ac;
 }
 
-/* =====================
-   WIDGETS
-   ===================== */
-#widgets {
-  display: flex;
-  gap: 28px;
-  align-items: flex-start;
+/* Social Buttons */
+.social-buttons {
+  display:flex; flex-wrap:wrap; gap:10px;
 }
+.social-buttons a {
+  display:flex; align-items:center; gap:5px;
+  background: rgba(45,45,60,0.9);
+  padding:8px 12px;
+  border-radius:10px;
+  color:#cdd6f4;
+  text-decoration:none;
+  font-size:0.95em;
+  transition:0.3s;
+}
+.social-buttons a:hover {
+  background: rgba(235,160,172,0.9);
+  color:#1e1e2e;
+}
+.social-buttons img { width:20px; height:20px; }
 
-/* SOCIALS */
-#socials-widget {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
-  padding: 18px;
-  border-radius: 18px;
-  background: rgba(30,30,46,0.85);
-  backdrop-filter: blur(14px);
-  box-shadow: 0 0 22px rgba(235,160,172,0.35);
-  transform: scale(0.85);
-  transform-origin: top left;
-}
-
-#socials-widget button {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
-  border-radius: 12px;
-  background: rgba(235,160,172,0.15);
-  border: none;
-  color: #cdd6f4;
-  cursor: pointer;
-}
-
-#socials-widget img {
-  width: 20px;
-  height: 20px;
-}
-
-/* DATE / TIME */
-#datetime-widget {
-  padding: 22px;
-  border-radius: 18px;
-  background: rgba(30,30,46,0.85);
-  backdrop-filter: blur(14px);
-  box-shadow: 0 0 22px rgba(235,160,172,0.35);
-  text-align: center;
-  min-width: 220px;
-}
-
-#date {
-  opacity: 0.8;
-  margin-bottom: 6px;
-}
-
-#time {
-  font-size: 2em;
-  color: #eba0ac;
-  text-shadow: 0 0 12px rgba(235,160,172,0.6);
-}
+/* Clock */
+#time { font-size:1.5em; font-weight:bold; margin-bottom:5px; }
+#date { font-size:1em; color:#eba0ac; }

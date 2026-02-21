@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>FoxinWinter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" href="Assets/Icons/Favicons/index.png">
-  <link rel="stylesheet" href="Assets/Style/index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FoxinWinter</title>
+<link rel="icon" type="image/png" href="Assets/Icons/Favicons/index.png">
+<link rel="stylesheet" href="Assets/Style/index.css">
 </head>
 <body>
 
-  <!-- Background -->
-  <div id="background"></div>
+<!-- Background -->
+<div id="bg-container"></div>
 
-  <!-- Hamburger -->
-  <div id="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
+<!-- Main Content -->
+<div id="main-wrapper">
+
+  <!-- About Me -->
+  <div id="about-container">
+    <img id="pfp" src="Assets/PFP(s)/fox.jpg" alt="Profile Picture">
+    <div id="about-box"></div>
   </div>
 
-  <!-- Side Menu -->
-  <nav id="side-menu">
-    <ul>
-      <li>Projects
-        <ul>
-          <li><a href="#">All</a></li>
-          <li><a href="#">My</a></li>
-          <li><a href="#">Projects</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content -->
-  <main id="content">
-    <div id="about-box"></div>
-
-    <div id="widgets">
-      <div id="socials-widget"></div>
-      <div id="datetime-widget">
-        <div id="date"></div>
-        <div id="time"></div>
+  <!-- Widgets Panel -->
+  <div id="widgets-panel">
+    <div class="widget" id="socials-widget">
+      <h3>Socials</h3>
+      <div class="social-buttons">
+        <a href="https://github.com/foxinwinter" target="_blank">
+          <img src="Assets/Icons/Socials/github.png" alt="GitHub"> GitHub
+        </a>
+        <a href="https://discord.com/users/yourid" target="_blank">
+          <img src="Assets/Icons/Socials/discord.png" alt="Discord"> Discord
+        </a>
+        <a href="https://t.me/yourusername" target="_blank">
+          <img src="Assets/Icons/Socials/telegram.png" alt="Telegram"> Telegram
+        </a>
       </div>
     </div>
-  </main>
 
-  <script src="Assets/Style/index.js"></script>
+    <div class="widget" id="clock-widget">
+      <h3>Current Time</h3>
+      <div id="time"></div>
+      <div id="date"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="Assets/Style/index.js"></script>
 </body>
 </html>
