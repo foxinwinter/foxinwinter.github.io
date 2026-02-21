@@ -4,115 +4,113 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ARG // Notes</title>
-
 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-
 <style>
-html, body {
-  margin: 0;
-  padding: 0;
-  background: #000;
-  color: #0f0;
-  font-family: 'VT323', monospace;
-}
-
-body {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-#container {
-  width: 100%;
-  max-width: 900px;
-  border: 1px solid #0f0;
-  padding: 20px;
-  box-shadow: 0 0 20px rgba(0,255,0,0.25);
-  background: rgba(0,0,0,0.85);
-  position: relative;
-}
-
-/* CRT scanlines */
-#container::before {
-  content: "";
-  pointer-events: none;
-  position: absolute;
-  inset: 0;
-  background: repeating-linear-gradient(
-    to bottom,
-    rgba(0,0,0,0) 0px,
-    rgba(0,0,0,0.08) 1px,
-    rgba(0,0,0,0) 2px
-  );
-}
-
-/* Flicker */
-@keyframes flicker {
-  0%,100% { opacity: 1; }
-  50% { opacity: 0.97; }
-}
-#container {
-  animation: flicker 0.15s infinite;
-}
-
-#status {
-  opacity: 0.7;
-  margin-bottom: 15px;
-}
-
-/* Section styling */
-.section {
-  border-top: 1px solid rgba(0,255,0,0.3);
-  padding-top: 10px;
-  margin-top: 15px;
-}
-
-.section-header {
-  cursor: pointer;
-  color: #00ffcc;
-  font-size: 1.6em;
-  user-select: none;
-}
-
-.section-header:hover {
-  text-shadow: 0 0 5px #00ffcc;
-}
-
-.section-content {
-  margin-top: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  line-height: 1.5;
-  font-size: 1.3em;
-  display: none;
-}
-
-/* Expanded */
-.section.open .section-content {
-  display: block;
-}
-
-.section.open .section-header::before {
-  content: "▼ ";
-}
-
-.section-header::before {
-  content: "▶ ";
-}
-
-/* Links */
-a {
-  color: #00ffff;
-  text-decoration: underline;
-}
+html, body { margin:0; padding:0; background:#000; color:#0f0; font-family:'VT323', monospace; }
+body { padding:30px; display:flex; justify-content:center; }
+#container { width:100%; max-width:900px; border:1px solid #0f0; padding:20px; box-shadow:0 0 20px rgba(0,255,0,0.25); background:rgba(0,0,0,0.85); position:relative; }
+#container::before { content:""; pointer-events:none; position:absolute; inset:0; background:repeating-linear-gradient(to bottom, rgba(0,0,0,0) 0px, rgba(0,0,0,0.08) 1px, rgba(0,0,0,0) 2px); }
+@keyframes flicker { 0%,100% {opacity:1;} 50% {opacity:0.97;} }
+#container { animation:flicker 0.15s infinite; }
+#status { opacity:0.7; margin-bottom:15px; }
+.section { border-top:1px solid rgba(0,255,0,0.3); padding-top:10px; margin-top:15px; }
+.section-header { cursor:pointer; color:#00ffcc; font-size:1.6em; user-select:none; }
+.section-header:hover { text-shadow:0 0 5px #00ffcc; }
+.section-content { margin-top:10px; white-space:pre-wrap; line-height:1.5; font-size:1.3em; display:none; }
+.section.open .section-content { display:block; }
+.section.open .section-header::before { content:"▼ "; }
+.section-header::before { content:"▶ "; }
+a { color:#00ffff; text-decoration:underline; }
 </style>
 </head>
-
 <body>
 <div id="container">
   <div id="status">Loading transmission…</div>
   <div id="sections"></div>
 </div>
-<script src="arg.js"></script>
+
+<script>
+// --- arg.js content embedded for beta testing ---
+const container = document.getElementById('sections');
+const statusEl = document.getElementById('status');
+
+async function loadARG() {
+  try {
+    statusEl.textContent = 'Loading ARG…';
+    const res = await fetch('index.json'); // index.json in same folder
+    if (!res.ok) throw new Error('Could not load index.json');
+    const fs = await res.json();
+    statusEl.textContent = 'Transmission received.';
+    container.innerHTML = '';
+    renderFolder(fs, container, '.');
+  } catch (e) {
+    console.error(e);
+    statusEl.textContent = 'ERROR: Could not load ARG index.';
+  }
+}
+
+function renderFolder(obj, parentEl, path) {
+  for (const [name, content] of Object.entries(obj)) {
+    const section = document.createElement('div');
+    section.className = 'section';
+
+    const header = document.createElement('div');
+    header.className = 'section-header';
+    header.textContent = name;
+
+    const contentEl = document.createElement('div');
+    contentEl.className = 'section-content';
+
+    header.addEventListener('click', async () => {
+      const isOpen = section.classList.toggle('open');
+
+      if (isOpen && name === 'notes.txt') {
+        try {
+          const fileRes = await fetch(`${path}/${name}`);
+          if (!fileRes.ok) throw new Error('File not found');
+          const text = await fileRes.text();
+          contentEl.innerHTML = '';
+
+          const sections = text.split(/^##\s+/m).filter(s => s.trim() !== '');
+          for (const sec of sections) {
+            const lines = sec.split('\n');
+            const pseudoName = lines.shift().trim();
+            const pseudoEl = document.createElement('div');
+            pseudoEl.className = 'section';
+
+            const pseudoHeader = document.createElement('div');
+            pseudoHeader.className = 'section-header';
+            pseudoHeader.textContent = pseudoName;
+
+            const pseudoContent = document.createElement('div');
+            pseudoContent.className = 'section-content';
+            pseudoContent.textContent = lines.join('\n');
+
+            pseudoHeader.addEventListener('click', () => {
+              pseudoEl.classList.toggle('open');
+            });
+
+            pseudoEl.appendChild(pseudoHeader);
+            pseudoEl.appendChild(pseudoContent);
+            contentEl.appendChild(pseudoEl);
+          }
+        } catch (e) {
+          contentEl.textContent = 'ERROR: Could not load file.';
+        }
+      }
+    });
+
+    section.appendChild(header);
+    section.appendChild(contentEl);
+    parentEl.appendChild(section);
+
+    if (typeof content === 'object' && name !== 'notes.txt') {
+      renderFolder(content, contentEl, `${path}/${name}`);
+    }
+  }
+}
+
+loadARG();
+</script>
 </body>
 </html>

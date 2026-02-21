@@ -1,25 +1,22 @@
-// arg.js
-const BASE_PATH = "ARGs";
 const container = document.getElementById('sections');
 const statusEl = document.getElementById('status');
 
-// Fetch the folder structure JSON
 async function loadARG() {
   try {
-    statusEl.textContent = 'Loading transmission…';
-    const res = await fetch(`${BASE_PATH}/index.json`);
+    statusEl.textContent = 'Loading ARG…';
+    const res = await fetch(`index.json`); // relative to arg.html
     if (!res.ok) throw new Error('Could not load index.json');
     const fs = await res.json();
     statusEl.textContent = 'Transmission received.';
     container.innerHTML = '';
-    renderFolder(fs, container, BASE_PATH);
+    renderFolder(fs, container, '.'); // current folder
   } catch (e) {
     console.error(e);
     statusEl.textContent = 'ERROR: Could not load ARG index.';
   }
 }
 
-// Recursive function to render folders/files
+// Recursive renderer
 function renderFolder(obj, parentEl, path) {
   for (const [name, content] of Object.entries(obj)) {
     const section = document.createElement('div');
@@ -34,13 +31,39 @@ function renderFolder(obj, parentEl, path) {
 
     header.addEventListener('click', async () => {
       const isOpen = section.classList.toggle('open');
-      if (isOpen && typeof content === 'string') {
-        // Load text file content
+
+      // Only load pseudo-files if it's notes.txt
+      if (isOpen && name === 'notes.txt') {
         try {
           const fileRes = await fetch(`${path}/${name}`);
           if (!fileRes.ok) throw new Error('File not found');
           const text = await fileRes.text();
-          contentEl.textContent = text;
+          contentEl.innerHTML = '';
+
+          // Split into pseudo-files by ## Section
+          const sections = text.split(/^##\s+/m).filter(s => s.trim() !== '');
+          for (const sec of sections) {
+            const lines = sec.split('\n');
+            const pseudoName = lines.shift().trim();
+            const pseudoEl = document.createElement('div');
+            pseudoEl.className = 'section';
+
+            const pseudoHeader = document.createElement('div');
+            pseudoHeader.className = 'section-header';
+            pseudoHeader.textContent = pseudoName;
+
+            const pseudoContent = document.createElement('div');
+            pseudoContent.className = 'section-content';
+            pseudoContent.textContent = lines.join('\n');
+
+            pseudoHeader.addEventListener('click', () => {
+              pseudoEl.classList.toggle('open');
+            });
+
+            pseudoEl.appendChild(pseudoHeader);
+            pseudoEl.appendChild(pseudoContent);
+            contentEl.appendChild(pseudoEl);
+          }
         } catch (e) {
           contentEl.textContent = 'ERROR: Could not load file.';
         }
@@ -51,8 +74,8 @@ function renderFolder(obj, parentEl, path) {
     section.appendChild(contentEl);
     parentEl.appendChild(section);
 
-    if (typeof content === 'object') {
-      // Folder, recursively render
+    // Recurse into subfolders (ignore notes.txt here)
+    if (typeof content === 'object' && name !== 'notes.txt') {
       renderFolder(content, contentEl, `${path}/${name}`);
     }
   }
