@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARG // Notes</title>
+
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #0f0;
+  font-family: 'VT323', monospace;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+#container {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(0,0,0,0.85);
+  border: 1px solid #0f0;
+  padding: 20px 25px;
+  box-shadow: 0 0 15px rgba(0,255,0,0.2);
+  position: relative;
+}
+
+/* CRT scanlines */
+#container::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0,0,0,0) 0px,
+    rgba(0,0,0,0.08) 1px,
+    rgba(0,0,0,0) 2px
+  );
+}
+
+/* Subtle flicker */
+@keyframes flicker {
+  0%,100% { opacity: 1; }
+  50% { opacity: 0.97; }
+}
+#container {
+  animation: flicker 0.15s infinite;
+}
+
+h1, h2, h3 {
+  margin: 1em 0 0.5em;
+  color: #00ffcc;
+}
+
+pre {
+  white-space: pre-wrap;
+  line-height: 1.4;
+  font-size: 1.3em;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: underline;
+}
+
+#status {
+  opacity: 0.7;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+</style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="status">Loading transmission…</div>
+    <pre id="content"></pre>
+  </div>
+
+<script>
+fetch('notes.txt')
+  .then(res => {
+    if (!res.ok) throw new Error('Missing notes.txt');
+    return res.text();
+  })
+  .then(text => {
+    document.getElementById('status').textContent = 'Transmission received.';
+    document.getElementById('content').textContent = text;
+  })
+  .catch(err => {
+    document.getElementById('status').textContent = 'ERROR: Transmission failed.';
+    document.getElementById('content').textContent =
+      'notes.txt could not be loaded.\n\nEnsure it exists in the repo root.';
+  });
+</script>
+</body>
+</html>
