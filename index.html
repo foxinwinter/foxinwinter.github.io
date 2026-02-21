@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Foxinwinter // Home</title>
-<link rel="icon" type="image/png" href="Assets/Icons/index.png">
-<link rel="stylesheet" href="Assets/Style/index.css">
+  <meta charset="UTF-8">
+  <title>FoxinWinter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="Assets/Icons/Favicons/index.png">
+  <link rel="stylesheet" href="Assets/Style/index.css">
 </head>
 <body>
 
-<div id="background-container"></div>
+  <!-- Background -->
+  <div id="background"></div>
 
-<header>
-  <div id="hamburger">&#9776;</div>
-  <nav id="menu-panel">
+  <!-- Hamburger -->
+  <div id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Side Menu -->
+  <nav id="side-menu">
     <ul>
       <li>Projects
         <ul>
-          <li>All</li>
-          <li>My</li>
-          <li>Projects</li>
+          <li><a href="#">All</a></li>
+          <li><a href="#">My</a></li>
+          <li><a href="#">Projects</a></li>
         </ul>
       </li>
     </ul>
   </nav>
-</header>
 
-<main>
-  <h1>Welcome to my Website</h1>
-  <div id="aboutme-box">
-    <!-- AboutMe text will be loaded here -->
-  </div>
-</main>
+  <!-- Main Content -->
+  <main id="content">
+    <div id="about-box"></div>
 
-<script>
-  // Hamburger toggle
-  const hamburger = document.getElementById('hamburger');
-  const menu = document.getElementById('menu-panel');
-  hamburger.addEventListener('click', () => {
-    menu.classList.toggle('open');
-  });
+    <div id="widgets">
+      <div id="socials-widget"></div>
+      <div id="datetime-widget">
+        <div id="date"></div>
+        <div id="time"></div>
+      </div>
+    </div>
+  </main>
 
-  // Load AboutMe.txt
-  fetch('Main/AboutMe.txt')
-    .then(res => res.text())
-    .then(text => {
-      document.getElementById('aboutme-box').textContent = text;
-    })
-    .catch(() => {
-      document.getElementById('aboutme-box').textContent = 'AboutMe.txt could not be loaded.';
-    });
-</script>
-
+  <script src="Assets/Style/index.js"></script>
 </body>
 </html>
