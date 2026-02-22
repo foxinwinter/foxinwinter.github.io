@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>foxinwinter - Progressive Enhancement</title>
+      <link>https://foxinwinter.github.io/blog/</link>
+      <description>Silly little website for a silly little guy :p</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://foxinwinter.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>New Website</title>
+          <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+          <author>foxinwinter</author>
+          <link>https://foxinwinter.github.io/blog/welcome-to-my-website/</link>
+          <guid>https://foxinwinter.github.io/blog/welcome-to-my-website/</guid>
+          <description xml:base="https://foxinwinter.github.io/blog/welcome-to-my-website/">&lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
+&lt;p&gt;There will most likely not be a ton of blogs, mainly Nanologs, but whenever something important happens I’ll make a new blog post.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Hi! Hopefully you are all doing well today, I know I am!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;Hello! My name is Jaxon or foxinwinter, it’s nice to meet you!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;icycoide-partnership&quot;&gt;Icycoide Partnership&lt;&#x2F;h2&gt;
+&lt;p&gt;We ran a short advertisement campaign with Icycoide community, where we advertised each other. This partnership resulted in an ongoing collaboration-type thing, newest part of which is a shared bridge to Revolt.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;workshop&quot;&gt;Workshop&lt;&#x2F;h2&gt;
+&lt;p&gt;A new workshop category was added, under which anyone can request a channel for their project, and for the community to help improve the project with suggestions along the way. Notably, &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cathodique&quot;&gt;Cathodique&lt;&#x2F;a&gt; and &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;stenodevs&quot;&gt;Steno&lt;&#x2F;a&gt; are part of workshop, and are part of Snug Nook as a whole.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;prime-minister&quot;&gt;Prime Minister&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;kevadesu.github.io&#x2F;&quot;&gt;Keva&lt;&#x2F;a&gt; have been elected (by themselves :P) as the prime minister of the Snug Nook. Initially it started as a joke, but now they’re an important part of the Snug Nook community, who have done many notable contributions to the server. I’m forever grateful for having them on the team.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;department-of-gnu-horny&quot;&gt;Department of gnu_horny&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;code&gt;:gnu_horny:&lt;&#x2F;code&gt; is no longer part of Snug Nook emoji set, after some &lt;em&gt;serious&lt;&#x2F;em&gt; psychological damage it caused over the course of a few months, and a bunch of 🔧 reactions. If you want to see it for yourself… you probably don’t.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;minecraft-server&quot;&gt;Minecraft Server&lt;&#x2F;h2&gt;
+&lt;p&gt;Hosted by the prime minister, Snug Nook now has a Minecraft server for its members, informally referred to as SNMC or The Snug Nook Empire. At the time of writing it’s down, but yeah. See for more info.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Waiting for prime minister to provide some screenshots of it.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;wordle&quot;&gt;Wordle&lt;&#x2F;h2&gt;
+&lt;p&gt;Someone has added the Wordle app to the server, and everyone got hooked to it… Everyone started playing Wordle daily, thus spamming unrelated channels with its messages, because of which we had to resort to creating a bot channel called #robots-dot-txt.&lt;&#x2F;p&gt;
+&lt;p&gt;With that, we managed to reach an entire stack (64) of days as a streak on Wordle! The Wordle insanity still goes on despite the streak being intentionally broken.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wordle-streak.png&quot; alt=&quot;Wordle streak.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;wplace&quot;&gt;Wplace&lt;&#x2F;h2&gt;
+&lt;p&gt;Everyone knows about &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wplace.live&quot;&gt;Wplace&lt;&#x2F;a&gt;: an online event with a world map where you can place pixels anywhere, thus making the globe a giant canvas… or a giant wall of questionable doodles.&lt;&#x2F;p&gt;
+&lt;p&gt;Snug Nook actively participated in it in the first few weeks, and we even created 3 Snug Nook advertisements in 3 different countries: Canada, &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wplace.live&#x2F;?lat=37.64284061242482&amp;amp;lng=-122.44719759697264&amp;amp;zoom=15.007757622056396&quot;&gt;USA&lt;&#x2F;a&gt; (South San Francisco, next to Vylet Pony art), and &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wplace.live&#x2F;?lat=38.36543507634402&amp;amp;lng=26.764364903027307&amp;amp;zoom=14.879252869276947&quot;&gt;Turkey&lt;&#x2F;a&gt;. In Canada in addition to the advert, pixl_xip also drew this very cool Ena!&lt;&#x2F;p&gt;
+&lt;div class=&quot;media-grid&quot;&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wplace-canada.png&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wplace-canada.png&quot; alt=&quot;Wplace Canada&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Canada&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wplace-usa.png&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wplace-usa.png&quot; alt=&quot;Wplace USA&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;USA&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wplace-turkey.png&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wplace-turkey.png&quot; alt=&quot;Wplace Turkey&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Turkey&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;In &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wplace.live&#x2F;?lat=46.951762373303396&amp;amp;lng=28.461884434277337&amp;amp;zoom=13.167916916628968&quot;&gt;Moldova&lt;&#x2F;a&gt; (Chișinău), Gabs have drew this giant EU flag, and a lot of other pro-EU art, in addition to defense of already existing such art.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wplace-moldova.png&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;wplace-moldova.png&quot; alt=&quot;Wplace Moldova&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;weekend-rebrands&quot;&gt;Weekend Rebrands&lt;&#x2F;h2&gt;
+&lt;p&gt;A tradition that was born randomly, we now rename Snug Nook to something we’ve been talking or joking about every now and then, during Saturdays and Sundays UTC. Semi-complete list of weekend rebrands is available on the wiki: &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.snugnook.org&#x2F;weekend_rebrands&quot;&gt;https:&#x2F;&#x2F;wiki.snugnook.org&#x2F;weekend_rebrands&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;politics&quot;&gt;Politics&lt;&#x2F;h2&gt;
+&lt;p&gt;The moderation team, also known as &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.snugnook.org&#x2F;het_etanes&quot;&gt;Het Etanes&lt;&#x2F;a&gt; (The Senate) has been split up into (made up) political parties, notably &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.snugnook.org&#x2F;silly_party&quot;&gt;Silly&lt;&#x2F;a&gt;, &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.snugnook.org&#x2F;freaky_party&quot;&gt;Democratic&lt;&#x2F;a&gt;, and &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.snugnook.org&#x2F;owo_party&quot;&gt;OwO&lt;&#x2F;a&gt; parties. A list of all political parties is available on the wiki: &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.snugnook.org&#x2F;list_of_political_parties_in_snugnook&quot;&gt;https:&#x2F;&#x2F;wiki.snugnook.org&#x2F;list_of_political_parties_in_snugnook&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In additon to the made up politics, Snug Nook gained a channel for very much real politics, called #dumpster-fire (crazy, amirite). It was initally only available to the members of #sillies-only, but after its retirement it was made public for everyone.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sillies-only&quot;&gt;#sillies-only&lt;&#x2F;h2&gt;
+&lt;p&gt;For the long time, there was an underground community referred to as #sillies-only, consisting of Het Etanes members and some trusted folks referred to as “Sillies”. Multiple arguments have taken place in it, last one stabbing it fatally, so it has since been retired. Everyone now has equal access to channels!&lt;&#x2F;p&gt;
+&lt;blockquote
+	class=&quot;markdown-alert&quot;
+	style=&quot;
+		--alert-title: &#x27;gabs&#x27;;
+		--alert-icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M234.38%2C210a123.36%2C123.36%2C0%2C0%2C0-60.78-53.23%2C76%2C76%2C0%2C1%2C0-91.2%2C0A123.36%2C123.36%2C0%2C0%2C0%2C21.62%2C210a12%2C12%2C0%2C1%2C0%2C20.77%2C12c18.12-31.32%2C50.12-50%2C85.61-50s67.49%2C18.69%2C85.61%2C50a12%2C12%2C0%2C0%2C0%2C20.77-12ZM76%2C96a52%2C52%2C0%2C1%2C1%2C52%2C52A52.06%2C52.06%2C0%2C0%2C1%2C76%2C96Z%22&#x2F;%3E%3C&#x2F;svg%3E&#x27;);
+	&quot;&gt;
+	&lt;p&gt;Communism?? &#x2F;hj&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;snugnook-org&quot;&gt;snugnook.org&lt;&#x2F;h2&gt;
+&lt;p&gt;On the 1st of October 2025 Gabs have gifted Snug Nook a domain of their own. Words cannot express my gratitude, it’s just so cool!!&lt;&#x2F;p&gt;
+&lt;p&gt;Shortly after we set up multiple services under that domain (details on &lt;em&gt;how&lt;&#x2F;em&gt; will be available in the next blog post), including but not limited to:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;phpBB forum: &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;forums.snugnook.org&quot;&gt;forums.snugnook.org&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;DokuWiki: &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.snugnook.org&quot;&gt;wiki.snugnook.org&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;An Otter Wiki (legacy): &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;otterwiki.snugnook.org&quot;&gt;otterwiki.snugnook.org&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Matrix homeserver with a &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;docs.mau.fi&#x2F;bridges&#x2F;go&#x2F;discord&#x2F;index.html&quot;&gt;mautrix-discord&lt;&#x2F;a&gt; bridge: &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;matrix.snugnook.org&quot;&gt;matrix.snugnook.org&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;That’s right, we now have a Matrix bridge of our own. For the long time we’ve been using &lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;t2bot.io&quot;&gt;t2bot&lt;&#x2F;a&gt;, which is free and avaiable to all, I respect that, but it’s been so darn slow, seriously, at times the delay between Matrix and Discord reached half an hour! Our own bridge on the other hand is instanteous and supports many more features, such as custom emoji reactions and threads, at the cost of maintenance, of course.&lt;&#x2F;p&gt;
+&lt;p&gt;The wiki was a huge success; multiple people have contributed to it by creating and expanding a number of pages, which is honestly so so cool.&lt;&#x2F;p&gt;
+&lt;p&gt;Forum on the other hand wasn’t this much of a success, as it’s inactive for the majority of the time. Which is fine, having one in 2025 is nice as is.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;rewind&quot;&gt;Rewind&lt;&#x2F;h2&gt;
+&lt;p&gt;Welcome to Snug Nook Rewind! Here are your statistics for the past year.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;rewind-bento.png&quot; alt=&quot;Snug Nook Rewind bento.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;And now… it’s number time!&lt;&#x2F;p&gt;
+&lt;p&gt;Messages in all channels, per month:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Month&lt;&#x2F;th&gt;&lt;th&gt;Year&lt;&#x2F;th&gt;&lt;th&gt;Messages&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;October&lt;&#x2F;td&gt;&lt;td&gt;2024&lt;&#x2F;td&gt;&lt;td&gt;236&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;November&lt;&#x2F;td&gt;&lt;td&gt;2024&lt;&#x2F;td&gt;&lt;td&gt;3,377&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;December&lt;&#x2F;td&gt;&lt;td&gt;2024&lt;&#x2F;td&gt;&lt;td&gt;3,496&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;January&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;8,623&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;February&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;13,740&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;March&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;10,256&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;April&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;9,911&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;May&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;4,440&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;June&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;13,557&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;July&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;14,997&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;August&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;8,472&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;September&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;8,794&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;October&lt;&#x2F;td&gt;&lt;td&gt;2025&lt;&#x2F;td&gt;&lt;td&gt;11,614&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Starboard leaderboard (#hall-of-&amp;lt;fame&#x2F;shame&#x2F;french&amp;gt; combined):&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Place&lt;&#x2F;th&gt;&lt;th&gt;User&lt;&#x2F;th&gt;&lt;th&gt;XP&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;#1&lt;&#x2F;td&gt;&lt;td&gt;@daudix&lt;&#x2F;td&gt;&lt;td&gt;567 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#2&lt;&#x2F;td&gt;&lt;td&gt;@kevadesu&lt;&#x2F;td&gt;&lt;td&gt;326 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#3&lt;&#x2F;td&gt;&lt;td&gt;@gabsme&lt;&#x2F;td&gt;&lt;td&gt;247 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#4&lt;&#x2F;td&gt;&lt;td&gt;@pixlxip&lt;&#x2F;td&gt;&lt;td&gt;175 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#5&lt;&#x2F;td&gt;&lt;td&gt;@ivanmarkov.net&lt;&#x2F;td&gt;&lt;td&gt;114 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#6&lt;&#x2F;td&gt;&lt;td&gt;@mambuco&lt;&#x2F;td&gt;&lt;td&gt;68 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#7&lt;&#x2F;td&gt;&lt;td&gt;@getimiskon&lt;&#x2F;td&gt;&lt;td&gt;68 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#8&lt;&#x2F;td&gt;&lt;td&gt;@Hey&lt;&#x2F;td&gt;&lt;td&gt;47 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#9&lt;&#x2F;td&gt;&lt;td&gt;@ehternet&lt;&#x2F;td&gt;&lt;td&gt;46 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;#10&lt;&#x2F;td&gt;&lt;td&gt;@aeronook&lt;&#x2F;td&gt;&lt;td&gt;34 XP&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;snugnooktosee&quot;&gt;#SnugNookToSee&lt;&#x2F;h2&gt;
+&lt;p&gt;Here is what members of Snug Nook liked you too see:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«this party’s getting crazy!»&lt;br &#x2F;&gt;
+—veeronniecaw&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«Snug Nook nation when?»&lt;br &#x2F;&gt;
+—mambuco&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«silly party are a dictatorship»&lt;br &#x2F;&gt;
+—gabsme&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«bring freaky party back»&lt;br &#x2F;&gt;
+—mambuco&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«Love yourself, don’t stress over silly in retrospect things, get yourself a treat, and fix your posture now!!»&lt;br &#x2F;&gt;
+—daudix&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«snug nook is peak server fr fr, best sister server of icecom ong &lt;img
+		class=&quot;emoji&quot;
+		src=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;neofax_googly_shocked.webp&quot;
+		title=&quot;neofax_googly_shocked&quot;
+		width=&quot;24&quot;
+		height=&quot;24&quot;
+	&#x2F;&gt;❤️&lt;img
+		class=&quot;emoji&quot;
+		src=&quot;https:&#x2F;&#x2F;foxinwinter.github.io&#x2F;blog&#x2F;welcome-to-my-website&#x2F;MedievalNineEleven.webp&quot;
+		title=&quot;MedievalNineEleven&quot;
+		width=&quot;24&quot;
+		height=&quot;24&quot;
+	&#x2F;&gt;»&lt;br &#x2F;&gt;
+—kevadesu&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«featuring dante from the devil may cry series»&lt;br &#x2F;&gt;
+—veeronniecaw&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;What a chaotic blog post! Hope you enjoyed it at least a bit. So many things have happened in our little community, which wouldn’t be possible without all of you, so thanks for being part of it for, in some cases, a year straight, and in some, only a few days &amp;lt;3&lt;&#x2F;p&gt;
+&lt;p&gt;Bwa&lt;&#x2F;p&gt;
+&lt;p&gt;Here’s to this being the &lt;del&gt;snuggest nook&lt;&#x2F;del&gt; nuggest snook on the interwebs!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;daudix (ofc lmao why is this even here)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ivanmarkov.net&quot;&gt;the Iván&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;xip.neocities.org&quot;&gt;pixl_xip 🪿&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;kevadesu.github.io&quot;&gt;kevadesu&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;gxbs.dev&quot;&gt;Gabs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;&#x2F;h2&gt;
+&lt;p&gt;its not encrypted hurr durr&lt;&#x2F;p&gt;
+&lt;p&gt;why the fuck post that will be public tomorrow needs to be encrypted??&lt;&#x2F;p&gt;
+&lt;p&gt;Lmao&lt;&#x2F;p&gt;
+&lt;p&gt;ivanaddition&lt;&#x2F;p&gt;
+&lt;blockquote
+	class=&quot;markdown-alert&quot;
+	style=&quot;
+		--alert-title: &#x27;daudix&#x27;;
+		--alert-icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M234.38%2C210a123.36%2C123.36%2C0%2C0%2C0-60.78-53.23%2C76%2C76%2C0%2C1%2C0-91.2%2C0A123.36%2C123.36%2C0%2C0%2C0%2C21.62%2C210a12%2C12%2C0%2C1%2C0%2C20.77%2C12c18.12-31.32%2C50.12-50%2C85.61-50s67.49%2C18.69%2C85.61%2C50a12%2C12%2C0%2C0%2C0%2C20.77-12ZM76%2C96a52%2C52%2C0%2C1%2C1%2C52%2C52A52.06%2C52.06%2C0%2C0%2C1%2C76%2C96Z%22&#x2F;%3E%3C&#x2F;svg%3E&#x27;);
+	&quot;&gt;
+	&lt;p&gt;lol comments are cool&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote
+	class=&quot;markdown-alert&quot;
+	style=&quot;
+		--alert-title: &#x27;kevadesu&#x27;;
+		--alert-icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M234.38%2C210a123.36%2C123.36%2C0%2C0%2C0-60.78-53.23%2C76%2C76%2C0%2C1%2C0-91.2%2C0A123.36%2C123.36%2C0%2C0%2C0%2C21.62%2C210a12%2C12%2C0%2C1%2C0%2C20.77%2C12c18.12-31.32%2C50.12-50%2C85.61-50s67.49%2C18.69%2C85.61%2C50a12%2C12%2C0%2C0%2C0%2C20.77-12ZM76%2C96a52%2C52%2C0%2C1%2C1%2C52%2C52A52.06%2C52.06%2C0%2C0%2C1%2C76%2C96Z%22&#x2F;%3E%3C&#x2F;svg%3E&#x27;);
+	&quot;&gt;
+	&lt;p&gt;agreed&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote
+	class=&quot;markdown-alert&quot;
+	style=&quot;
+		--alert-title: &#x27;gabs&#x27;;
+		--alert-icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M234.38%2C210a123.36%2C123.36%2C0%2C0%2C0-60.78-53.23%2C76%2C76%2C0%2C1%2C0-91.2%2C0A123.36%2C123.36%2C0%2C0%2C0%2C21.62%2C210a12%2C12%2C0%2C1%2C0%2C20.77%2C12c18.12-31.32%2C50.12-50%2C85.61-50s67.49%2C18.69%2C85.61%2C50a12%2C12%2C0%2C0%2C0%2C20.77-12ZM76%2C96a52%2C52%2C0%2C1%2C1%2C52%2C52A52.06%2C52.06%2C0%2C0%2C1%2C76%2C96Z%22&#x2F;%3E%3C&#x2F;svg%3E&#x27;);
+	&quot;&gt;
+	&lt;p&gt;what about a stat of how many “inchidents” we had. (yes I misspelled that intentionally, IYKYK)&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote
+	class=&quot;markdown-alert&quot;
+	style=&quot;
+		--alert-title: &#x27;daudix&#x27;;
+		--alert-icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M234.38%2C210a123.36%2C123.36%2C0%2C0%2C0-60.78-53.23%2C76%2C76%2C0%2C1%2C0-91.2%2C0A123.36%2C123.36%2C0%2C0%2C0%2C21.62%2C210a12%2C12%2C0%2C1%2C0%2C20.77%2C12c18.12-31.32%2C50.12-50%2C85.61-50s67.49%2C18.69%2C85.61%2C50a12%2C12%2C0%2C0%2C0%2C20.77-12ZM76%2C96a52%2C52%2C0%2C1%2C1%2C52%2C52A52.06%2C52.06%2C0%2C0%2C1%2C76%2C96Z%22&#x2F;%3E%3C&#x2F;svg%3E&#x27;);
+	&quot;&gt;
+	&lt;p&gt;why the hell not&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote
+	class=&quot;markdown-alert&quot;
+	style=&quot;
+		--alert-title: &#x27;gabs&#x27;;
+		--alert-icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M234.38%2C210a123.36%2C123.36%2C0%2C0%2C0-60.78-53.23%2C76%2C76%2C0%2C1%2C0-91.2%2C0A123.36%2C123.36%2C0%2C0%2C0%2C21.62%2C210a12%2C12%2C0%2C1%2C0%2C20.77%2C12c18.12-31.32%2C50.12-50%2C85.61-50s67.49%2C18.69%2C85.61%2C50a12%2C12%2C0%2C0%2C0%2C20.77-12ZM76%2C96a52%2C52%2C0%2C1%2C1%2C52%2C52A52.06%2C52.06%2C0%2C0%2C1%2C76%2C96Z%22&#x2F;%3E%3C&#x2F;svg%3E&#x27;);
+	&quot;&gt;
+	&lt;p&gt;yay&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;section&gt;
+</description>
+      </item>
+    </channel>
+</rss>

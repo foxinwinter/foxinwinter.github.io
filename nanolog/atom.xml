@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>foxinwinter - Nanolog</title>
+    <subtitle>Silly little website for a silly little guy :p</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://foxinwinter.github.io/nanolog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://foxinwinter.github.io/nanolog/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-21T11:30:00+00:00</updated>
+    <id>https://foxinwinter.github.io/nanolog/atom.xml</id>
+    <entry xml:lang="en">
+        <title></title>
+        <published>2026-02-21T11:30:00+00:00</published>
+        <updated>2026-02-21T11:30:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              foxinwinter
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://foxinwinter.github.io/nanolog/2026-02-21t11-30-00z/"/>
+        <id>https://foxinwinter.github.io/nanolog/2026-02-21t11-30-00z/</id>
+        
+        <content type="html" xml:base="https://foxinwinter.github.io/nanolog/2026-02-21t11-30-00z/">&lt;p&gt;Hello all! This is going to be the first Nanoblog of this website, so I’m to blame White Monster as a source for all of my chaos&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>foxinwinter - Nanolog</title>
+      <link>https://foxinwinter.github.io/nanolog/</link>
+      <description>Silly little website for a silly little guy :p</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://foxinwinter.github.io/nanolog/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 21 Feb 2026 11:30:00 +0000</lastBuildDate>
+      <item>
+          <title></title>
+          <pubDate>Sat, 21 Feb 2026 11:30:00 +0000</pubDate>
+          <author>foxinwinter</author>
+          <link>https://foxinwinter.github.io/nanolog/2026-02-21t11-30-00z/</link>
+          <guid>https://foxinwinter.github.io/nanolog/2026-02-21t11-30-00z/</guid>
+          <description xml:base="https://foxinwinter.github.io/nanolog/2026-02-21t11-30-00z/">&lt;p&gt;Hello all! This is going to be the first Nanoblog of this website, so I’m to blame White Monster as a source for all of my chaos&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
