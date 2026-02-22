@@ -7,7 +7,31 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://foxinwinter.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Updates</title>
+          <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+          <author>foxinwinter</author>
+          <link>https://foxinwinter.github.io/blog/updates/</link>
+          <guid>https://foxinwinter.github.io/blog/updates/</guid>
+          <description xml:base="https://foxinwinter.github.io/blog/updates/">&lt;p&gt;Howdy Howdy!
+Just a quick update for the 1 or 2 readers&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;website-changes&quot;&gt;Website Changes&lt;&#x2F;h2&gt;
+&lt;p&gt;A couple of new things have been implemented since I last wrote&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Accent color changed from orange to purple&lt;&#x2F;li&gt;
+&lt;li&gt;Added “Silly games I like playing” section to the main screen&lt;&#x2F;li&gt;
+&lt;li&gt;Started work on making pages for my Projects&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;other-projects&quot;&gt;Other Projects&lt;&#x2F;h2&gt;
+&lt;p&gt;A couple of other things I’m working on (might be out 2night if I’m lucky)&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Porting over my personal (VERY OPINIONATED) install script(s) to Github, main struggle is changing all the stuff that will only work on my very specific setup&lt;&#x2F;li&gt;
+&lt;li&gt;Still (very slowly) making headway on the PS5 Jailbreak Toolset as I’m calling it now, I’ll probably have a page out for it soon&lt;&#x2F;li&gt;
+&lt;li&gt;Working on a way to easier manage zola websites (GUI or otherwise)&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</description>
+      </item>
       <item>
           <title>New Website</title>
           <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>

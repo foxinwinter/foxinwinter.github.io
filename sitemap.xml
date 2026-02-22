@@ -19,6 +19,10 @@
         <loc>https://foxinwinter.github.io/blog/page/1/</loc>
     </url>
     <url>
+        <loc>https://foxinwinter.github.io/blog/updates/</loc>
+        <lastmod>2026-02-22</lastmod>
+    </url>
+    <url>
         <loc>https://foxinwinter.github.io/blog/welcome-to-my-website/</loc>
         <lastmod>2026-02-21</lastmod>
     </url>
@@ -39,6 +43,10 @@
         <lastmod>2026-02-21T11:30:00Z</lastmod>
     </url>
     <url>
+        <loc>https://foxinwinter.github.io/nanolog/2026-02-22t18-10-43z/</loc>
+        <lastmod>2026-02-22T18:10:43Z</lastmod>
+    </url>
+    <url>
         <loc>https://foxinwinter.github.io/online/</loc>
     </url>
     <url>
@@ -49,5 +57,11 @@
     </url>
     <url>
         <loc>https://foxinwinter.github.io/tags/</loc>
+    </url>
+    <url>
+        <loc>https://foxinwinter.github.io/tags/update/</loc>
+    </url>
+    <url>
+        <loc>https://foxinwinter.github.io/tags/update/page/1/</loc>
     </url>
 </urlset>
