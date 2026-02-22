@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>foxinwinter - Progressive Enhancement</title>
+    <subtitle>Silly little website for a silly little guy :p</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://foxinwinter.github.io/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://foxinwinter.github.io/blog/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-21T00:00:00+00:00</updated>
+    <id>https://foxinwinter.github.io/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>New Website</title>
+        <published>2026-02-21T00:00:00+00:00</published>
+        <updated>2026-02-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            foxinwinter
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://foxinwinter.github.io/blog/welcome-to-my-website/"/>
+        <id>https://foxinwinter.github.io/blog/welcome-to-my-website/</id>
+        
+        <content type="html" xml:base="https://foxinwinter.github.io/blog/welcome-to-my-website/">&lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
+&lt;p&gt;There will most likely not be a ton of blogs, mainly Nanologs, but whenever something important happens I’ll make a new blog post.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Hi! Hopefully you are all doing well today, I know I am!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;little-about-me&quot;&gt;Little About me&lt;&#x2F;h2&gt;
+&lt;p&gt;Hello&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
