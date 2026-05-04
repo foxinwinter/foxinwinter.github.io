@@ -1,13 +1,21 @@
-Silly little website built with Zola with the Amentrine theme, stolen and then modified from https://github.com/daudix/daudix.one
+silly little website built with zola using the amentrine theme, modified from https://github.com/daudix/daudix.one.
+
 ## About
-The 'main' branch contains all files needed to build the site yourself
-The 'gh-pages' branch contains all the built files that are hosted on GitHub Pages at https://foxinwinter.github.io
-# Extra
-If you would like to use this as your own website, for whatever reason, you will optionally need your Discord Token and LastFM API key for those integrations; however I would recommend either:
-            a. cloning the default site from https://codeberg.org/daudix/ametrine
-            b. following in my footsteps and cloning from https://github.com/daudix/daudix.one
-                i. the reason I dont recommend you clone mine is because, to be honest, mine may not be perfectly stable
-I probably won't make many blog posts, but that's mainly because I'm still not used to the formatting for zola, and as I get more used to actually maintaining my projects, they'll become more frequent (maybe)
+
+- the `main` branch contains all files needed to build the site yourself  
+- the `gh-pages` branch contains the built files hosted on GitHub Pages: https://foxinwinter.github.io  
+
+## Extra
+
+If you plan to use this, you may optionally need a Discord token and LastFM API key; however, I recommend either:
+
+- Cloning the default site from https://codeberg.org/daudix/ametrine  
+- Following in my footsteps and cloning from https://github.com/daudix/daudix.one  
+  - I don’t recommend cloning mine since to be real, it probably wont be perfectly stable  
+
+i probably won’t make many blog posts yet—mainly because i’m still getting used to Zola’s formatting. as i get more comfortable maintaining my projects, they’ll likely become more frequent (maybe).
+
 ## TODO
+
 <!-- TODO-START -->
 <!-- TODO-END -->
