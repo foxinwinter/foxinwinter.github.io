@@ -5,6 +5,9 @@ on:
     paths:
       - 'todo.md'
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -13,7 +16,6 @@ jobs:
 
       - name: Insert todo.md into README.md
         run: |
-          CONTENT=$(sed 's/[&/\]/\\&/g' todo.md)
           awk '/<!-- TODO-START -->/{print;system("cat todo.md");skip=1;next}/<!-- TODO-END -->/{skip=0} !skip' README.md > README.tmp
           mv README.tmp README.md
 
