@@ -1,5 +1,3 @@
--  Create 'main' branch for Source Files and 'gh-pages' branch for the built site 
--  Move stuff currently in 'main' branch to 'gh-pages' branch
 -  Add build files to 'main' branch (remember to not import .env)
 -  Add secrets containing Discord Token & LastFM API key (Settings > Secrets & Variables > Actions)
 -  Add workflows that work and debug stuff
