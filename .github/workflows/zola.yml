@@ -16,6 +16,10 @@ jobs:
     container:
       image: archlinux:latest
 
+    env:
+      DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+      LAST_FM_API_KEY: ${{ secrets.LAST_FM_API_KEY }}
+
     steps:
       - name: Install base packages
         run: |
