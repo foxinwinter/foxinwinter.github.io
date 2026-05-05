@@ -1,2 +1,3 @@
-Code-Workspace.code-workspace
-16x
+.env
+*.kate-swp
+dev.sh
